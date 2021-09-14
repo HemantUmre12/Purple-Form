@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="challenge1.css">
+    <title>Form</title>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+</head>
+<body>
+    <form action="">
+        <div class = "field">
+            <p id="note">NOTE :- All fields are mandatory<p>
+            <label for="fullname">
+                Your Name:
+                <br>
+                <input type="text" name="fullname" id="fullname" placeholder="Eg.Hatake Kakashi" required><br>
+            </label>
+            <label for="email">
+                Your Email:
+                <br>
+                <input type="email" name="email" id="email"
+                placeholder="Eg.Uzumaki@naruto.com" required><br>
+            </label>
+            <label for="message">
+                Message:
+                <br>
+                <textarea name="message" id="message" cols="50" rows="5" placeholder="Drop your message here:)"></textarea><br>
+            </label>
+            <label for="subject" class="sub">
+                Subject:<br>
+                <select name="subject" id="subject" class="opt">
+                    <option value="" >--Subject--</option>
+                    <option value="jobinquiry">Job inquiry</option>
+                    <option value="complain">Complain</option>
+                    <option value="feedback">Feedback</option>
+                </select><br>
+            </label>
+            <label class="submit">
+                <input type="submit" value="SUBMIT">
+                <br>
+            </label>
+        </div>
+    </form>
+</body>
+</html>

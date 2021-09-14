@@ -1,0 +1,60 @@
+html{
+    background: url(background_form.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+header h1{
+    color:#590194;
+    text-align: center;
+    font: normal normal bolder 70px cursive;
+    text-shadow: 4px 4px 4px rgb(200, 155, 243);
+}
+body div{
+    background-color: #461b9b6e;
+    color: #e88cff;
+    font: normal normal bolder 30px/1.5 glory;
+    border: 2px solid rgb(177, 124, 238);
+    padding: 10px;
+    width: 50%;
+    height: 90vh;
+    margin: 3% 25%;
+    text-align: left;
+    border-radius: 10px;
+}
+input[type="text"],input[type="email"],input[type="submit"],textarea,select{
+    margin: 10px;
+    padding: 5px;
+    font-size: 60%;
+    border: 2px solid rgb(180, 67, 233);
+    background-color: rgb(182, 159, 245);
+    height: 40px;
+    width: 90%;
+    border-radius: 20px;
+}
+textarea{
+    height: 130px;
+}
+::placeholder,.opt{
+    color:rgb(112, 33, 143);
+    font-family: glory;
+    font-weight: bolder;
+}
+#note{
+    color:rgb(216, 60, 216);
+    text-decoration: underline;
+    font: normal normal bolder 25px glory;
+}
+.opt{
+    text-align: center;
+}
+.submit input[type="submit"]{
+    width:16%;
+    margin: 40px 42%;
+    color:#ffffff;
+    font: normal normal bolder 70% glory;
+    background-color: #380c46b7;
+}
+input[type="submit"]:hover{
+    color:darkorchid;
+}
+
